@@ -1,0 +1,599 @@
+<class-diagram version="1.0.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCResourceSet" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCResourceSet.java" binary="false">    
+    <position height="493" width="309" x="14" y="8293"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCLRPathData" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCLRPathData.java" binary="false">    
+    <position height="238" width="221" x="725" y="7777"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCRoad" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCRoad.java" binary="false">    
+    <position height="119" width="238" x="1981" y="5300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCResourceConstants" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCResourceConstants.java" binary="false">    
+    <position height="272" width="198" x="232" y="97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCBoardLarge" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCBoardLarge.java" binary="false">    
+    <position height="1581" width="421" x="664" y="10917"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCCity" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCCity.java" binary="false">    
+    <position height="102" width="231" x="641" y="5300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCTradeOffer" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCTradeOffer.java" binary="false">    
+    <position height="255" width="442" x="75" y="7777"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCSettlement" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCSettlement.java" binary="false">    
+    <position height="102" width="271" x="1204" y="5300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCBoard" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCBoard.java" binary="false">    
+    <position height="2584" width="418" x="1858" y="8293"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="10" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCPlayerNumbers" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCPlayerNumbers.java" binary="false">    
+    <position height="476" width="402" x="1516" y="7777"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCGameOptionVersionException" 
+    project="JSettlers2" file="/JSettlers2/src/java/soc/game/SOCGameOptionVersionException.java" binary="false">    
+    <position height="153" width="307" x="317" y="10917"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCOldLRStats" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCOldLRStats.java" binary="false">    
+    <position height="119" width="212" x="1496" y="97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="13" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCForceEndTurnResult" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCForceEndTurnResult.java" binary="false">    
+    <position height="544" width="446" x="-558" y="4716"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="14" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCPlayer" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCPlayer.java" binary="false">    
+    <position height="2278" width="460" x="683" y="5459"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="15" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCGameOption" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCGameOption.java" binary="false">    
+    <position height="1309" width="457" x="1858" y="12538"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="16" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCMoveRobberResult" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCMoveRobberResult.java" binary="false">    
+    <position height="187" width="196" x="-794" y="4716"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="17" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCDevCardSet" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCDevCardSet.java" binary="false">    
+    <position height="323" width="224" x="986" y="7777"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="18" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCGame" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCGame.java" binary="false">    
+    <position height="4267" width="544" x="559" y="409"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="19" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCShip" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCShip.java" binary="false">    
+    <position height="153" width="234" x="2021" y="7777"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="20" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCPlayingPiece" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCPlayingPiece.java" binary="false">    
+    <position height="356" width="302" x="893" y="4716"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="21" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCGameOption.ChangeListener" 
+    project="JSettlers2" file="/JSettlers2/src/java/soc/game/SOCGameOption.java" binary="false">    
+    <position height="85" width="385" x="1858" y="13887"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="22" corner="BOTTOM_RIGHT" language="java" name="soc.game.SOCDevCardConstants" project="JSettlers2" 
+    file="/JSettlers2/src/java/soc/game/SOCDevCardConstants.java" binary="false">    
+    <position height="374" width="226" x="1250" y="7777"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <association id="23">    
+    <bendpoint x="902" y="5300"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="24" name="player"/>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="26">    
+    <bendpoint x="1948" y="5459"/>    
+    <bendpoint x="1948" y="7777"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="27">    
+    <bendpoint x="631" y="4716"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="28">    
+    <bendpoint x="631" y="7777"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="29" name="lastActionBankTrade_give"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="31">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <association id="32">    
+    <bendpoint x="-19" y="4716"/>    
+    <bendpoint x="-19" y="5300"/>    
+    <bendpoint x="-19" y="5459"/>    
+    <bendpoint x="-19" y="7777"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="33" name="EMPTY_RESOURCES"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="36" name="currentOffer"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="38">    
+    <bendpoint x="610" y="7777"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="39" name="resources"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="41">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <association id="42">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="43" name="give"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="45">    
+    <bendpoint x="302" y="4716"/>    
+    <bendpoint x="302" y="5300"/>    
+    <bendpoint x="302" y="5459"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <generalization id="46">    
+    <bendpoint x="2011" y="5459"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <realization id="47">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <dependency id="48">    
+    <bendpoint x="1867" y="10917"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <association id="49">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="50" name="get"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <generalization id="53">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="54">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <dependency id="55">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <association id="56">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="57" name="ourNumbers"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="59">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="60">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="61">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="62">    
+    <bendpoint x="610" y="5300"/>    
+    <bendpoint x="610" y="4716"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="63" name="game"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <bendpoint x="2" y="4716"/>    
+    <bendpoint x="2" y="5300"/>    
+    <bendpoint x="2" y="5459"/>    
+    <bendpoint x="2" y="7777"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="66" name="CARD_SET"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <bendpoint x="-82" y="4716"/>    
+    <bendpoint x="-82" y="5300"/>    
+    <bendpoint x="-82" y="5459"/>    
+    <bendpoint x="-82" y="7777"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="69" name="CITY_SET"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="71">    
+    <bendpoint x="1225" y="4716"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="72">    
+    <bendpoint x="694" y="7777"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <nesting id="73">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="21"/>  
+  </nesting>  
+  <association id="74">    
+    <bendpoint x="2285" y="4716"/>    
+    <bendpoint x="2285" y="5300"/>    
+    <bendpoint x="2285" y="5459"/>    
+    <bendpoint x="2285" y="7777"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="75" name="board"/>      
+      <multiplicity id="76" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="77">    
+    <bendpoint x="-40" y="4716"/>    
+    <bendpoint x="-40" y="5300"/>    
+    <bendpoint x="-40" y="5459"/>    
+    <bendpoint x="-40" y="7777"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="78" name="ROAD_SET"/>      
+      <multiplicity id="79" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="80">    
+    <bendpoint x="1526" y="4716"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="81">    
+    <bendpoint x="1990" y="5459"/>    
+    <bendpoint x="1990" y="7777"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="82">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="83">    
+    <bendpoint x="589" y="5300"/>    
+    <bendpoint x="323" y="5459"/>    
+    <bendpoint x="44" y="7777"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="84">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="85">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <association id="86">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="87" name="devCards"/>      
+      <multiplicity id="88" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="89">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <association id="90">    
+    <bendpoint x="1505" y="409"/>    
+    <bendpoint x="1505" y="4716"/>    
+    <bendpoint x="1505" y="5300"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="91" name="playerWithLR"/>      
+      <multiplicity id="92" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="93">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <generalization id="94">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <dependency id="95">    
+    <bendpoint x="652" y="5459"/>    
+    <bendpoint x="652" y="7777"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="96">    
+    <bendpoint x="2249" y="4716"/>    
+    <bendpoint x="2249" y="5300"/>    
+    <bendpoint x="2249" y="5459"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <association id="97">    
+    <bendpoint x="23" y="4716"/>    
+    <bendpoint x="23" y="5300"/>    
+    <bendpoint x="23" y="5459"/>    
+    <bendpoint x="23" y="7777"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="98" name="SHIP_SET"/>      
+      <multiplicity id="99" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="100">    
+    <bendpoint x="547" y="4716"/>    
+    <bendpoint x="547" y="5300"/>    
+    <bendpoint x="547" y="5459"/>    
+    <bendpoint x="547" y="7777"/>    
+    <bendpoint x="547" y="8293"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="101">    
+    <bendpoint x="568" y="7777"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="102" name="rolledResources"/>      
+      <multiplicity id="103" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="104">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="105" name="optCL"/>      
+      <multiplicity id="106" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="107">    
+    <bendpoint x="2306" y="4716"/>    
+    <bendpoint x="2306" y="5300"/>    
+    <bendpoint x="2306" y="5459"/>    
+    <bendpoint x="2306" y="7777"/>    
+    <bendpoint x="2306" y="8293"/>    
+    <bendpoint x="2306" y="10917"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="108">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <association id="109">    
+    <bendpoint x="-61" y="4716"/>    
+    <bendpoint x="-61" y="5300"/>    
+    <bendpoint x="-61" y="5459"/>    
+    <bendpoint x="-61" y="7777"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="110" name="SETTLEMENT_SET"/>      
+      <multiplicity id="111" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="112">    
+    <bendpoint x="1173" y="5459"/>    
+    <bendpoint x="1173" y="5300"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="113">    
+    <bendpoint x="673" y="7777"/>    
+    <bendpoint x="673" y="8293"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="114">    
+    <bendpoint x="-263" y="5300"/>    
+    <bendpoint x="-263" y="5459"/>    
+    <bendpoint x="-263" y="7777"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="115" name="gainLoss"/>      
+      <multiplicity id="116" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="117">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="118" name="EMPTY_SET"/>      
+      <multiplicity id="119" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="120">    
+    <bendpoint x="1950" y="5300"/>    
+    <bendpoint x="1969" y="5459"/>    
+    <bendpoint x="1969" y="7777"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="121" name="board"/>      
+      <multiplicity id="122" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="123">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <association id="124">    
+    <bendpoint x="568" y="4716"/>    
+    <bendpoint x="568" y="5300"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="125" name="players"/>      
+      <multiplicity id="126" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="127">    
+    <bendpoint x="589" y="7777"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="128" name="lastActionBankTrade_get"/>      
+      <multiplicity id="129" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
