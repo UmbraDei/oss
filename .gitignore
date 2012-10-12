@@ -6,3 +6,10 @@
 *.ear
 /doc
 /bin
+/verslag/Verslag.aux
+/verslag/Verslag.out
+/verslag/Verslag.log
+/verslag/.Verslag.tex.swp
+/verslag/Verslag.pdf
+/verslag/Verslag.synctex.gz
+/verslag/Verslag.toc
