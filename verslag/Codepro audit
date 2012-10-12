@@ -1,0 +1,11 @@
+Codepro audit:
+
+	- 32 keer string comparison met == ipv equals
+	- 9 keer equality test met boolean literal
+	- 59 keer lege catch clause
+	- methodes die een boolean teruggeven zouden best "can" of "is" bevatten bij wijze van betere leesbaarheid
+	- catch clauses die Throwable vangen
+	- inconsistente naming van constanten, velden en variabelen (beginnen met _ etc)
+	- heel veel lege methoden, lege if clauses etc
+	- variabelen declaren in loops
+	- package util verschrikkelijk for some reason

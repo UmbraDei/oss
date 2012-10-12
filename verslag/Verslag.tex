@@ -106,11 +106,18 @@ There are some inheritance hierarchies present but it is not used for polymorfys
 
 \section{Analysis}
 
-Here some tools will be discussed that were used for analysing JSettlers code. The first tool is Codecity, which displays the codebase. An other tool used was InCode.
+Here some tools will be discussed that were used for analysing JSettlers code.
+The first tool is Codecity, which displays the codebase. An other tool used was InCode, which delivers some interesting metrics about the code.
+The last tool is CodePro
 
 \subsection{Codecity}
 
-Codecity really lives up to its name. What it does is that it visualises the codebase by building a city out of it. Buildings are classes with their dimensions directly correlated to the size of the class. The height shows the number of methods in the class. Width and length are both the number of attributes in the class. Figure \ref{fig:codecityIso} shows an overview of the Codecity generated for JSettlers.
+Codecity really lives up to its name.
+What it does is that it visualises the codebase by building a city out of it.
+Buildings are classes with their dimensions directly correlated to the size of the class.
+The height shows the number of methods in the class.
+Width and length are both the number of attributes in the class.
+Figure \ref{fig:codecityIso} shows an overview of the Codecity generated for JSettlers.
 
 \begin{figure}
 \begin{center}
@@ -120,19 +127,10 @@ Codecity really lives up to its name. What it does is that it visualises the cod
 \end{center}
 \end{figure}
 
-The buildings in the figure are also color coded to easily spot the problems the individual classes have. This is the so-called disharmony map. The legend for the colors can be found in figure \ref{fig:legendCodeCity}. There are numbers next to each type of problem, indicating how many classes are affected.
-
-Codecity can distinguish between three types of problems:
-\begin{description}
-\item[God class] A God class is a class which \emph{knows too much or does too much}. In other words, it's a class that does most of the work and delegates only minor things to other classes. Therefore these classes tend to be very large and unwieldy. This is very visible in figure \ref{fig:codecityIso}, where orange buildings are God classes.
-
-The philosophy of OO programming is just the opposite to this centralisation: keep splitting up the project in smaller pieces until every individual fragment is of a manageable size. It's also something that's very often found in OO projects, written by people who used to develop in a procedural language like C because they're used to write a program in one big file.
-
-\item[Brain class] Brain classes 
-
-\item[Data class] These are \emph{dumb} classes. This means that they barely contain functionality and are mostly just for representing and storing data.
-
-\end{description}
+The buildings in the figure are also color coded to easily spot the problems the individual classes have.
+This is the so-called disharmony map.
+The legend for the colors can be found in figure \ref{fig:legendCodeCity}.
+There are numbers next to each type of problem, indicating how many classes are affected.
 
 \begin{figure}
 \begin{center}
@@ -142,7 +140,28 @@ The philosophy of OO programming is just the opposite to this centralisation: ke
 \end{center}
 \end{figure}
 
-Another interesting view of the Codecity can be found in figure \ref{fig:codecityMap}. Just as you might like to have a map of a city before you go exploring, Codecity can show a top-down view of the code.
+Codecity can distinguish between three types of problems:
+\begin{description}
+\item[God class] A God class is a class which \emph{knows too much or does too much}.
+In other words, it's a class that does most of the work and delegates only minor things to other classes.
+Therefore these classes tend to be very large and unwieldy.
+This is very visible in figure \ref{fig:codecityIso}, where orange buildings are God classes.
+
+The philosophy of OO programming is just the opposite to this centralisation: keep splitting up the project in smaller pieces until every individual fragment is of a manageable size.
+It's also something that's very often found in OO projects, written by people who used to develop in a procedural language like C because they're used to write a program in one big file.
+
+\item[Brain class] Brain classes 
+
+\item[Data class] These are \emph{dumb} classes.
+This means that they barely contain functionality and are mostly just for representing and storing data.
+
+The problem with these classes is that they violate one of the basic ideas of OO programming, which is that an object represents a piece of data on which you can do operations.
+Data classes obviously don't follow this idea because they only contain the data and no operations.
+
+\end{description}
+
+Another interesting view of the Codecity can be found in figure \ref{fig:codecityMap}.
+Just as you might like to have a map of a city before you go exploring, Codecity can show a top-down view of the code.
 
 \begin{figure}
 \begin{center}
@@ -151,6 +170,55 @@ Another interesting view of the Codecity can be found in figure \ref{fig:codecit
 \label{fig:codecityMap}
 \end{center}
 \end{figure}
+
+\subsection{inCode}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Image/Incode/overview.png}
+\caption{Overview from inCode}
+\label{fig:incodeTriangle}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Image/Incode/problems.png}
+\caption{Problems found with inCode}
+\label{fig:incodeTriangle}
+\end{center}
+\end{figure}
+
+\subsection{CodePro}
+
+CodePro is an entire suite of tools that goes from auditing code to code coverage, finding dead code and metrics.
+
+\subsubsection{Audit}
+
+JSettlers was audited with CodePro using the default rule set and the amount of bad programming practices in the codebase was staggering. Here are some of the things CodePro found:
+
+\begin{itemize}
+\item Catch clauses that catched \emph{Throwable}.
+This is an easy hack if there's code that throws a number of exceptions and you don't want to write a specific case for every single one.
+Although very easy this is generally not such a good idea since (at least in theory) every exception should be handled differently.
+\item Instead of using \emph{.equals()} to check for equality between objects, \emph{==} was used an aweful lot.
+This might be by design but it is very likely that someone was just not paying attention.
+\item In some cases, variables were declared inside a loop instead of outside.
+Declaring a variable in every iteration of the loop causes easily avoidable overhead.
+\item Inconsistency in naming of variables, fields and even variables was a very frequent reoccurring problem.
+\item Instead of doing something useful in a catch clause, many were just empty.
+\end{itemize}
+
+\subsubsection{Dead code}
+
+CodePro found a \emph{lot} of dead code in the project.
+Out of the 206 classes the project is made up of (see figure \ref{fig:incodeTriangle}, NOC), the tool insists that 67 are not used.
+There's obviously something wrong with the tool for this test.
+
+\subsubsection{Metrics}
+
+The metrics are very similar to the pyramid found in figure \ref{fig:incodeTriangle} and will therefore not be repeated here.
+
 
 \newpage
 
