@@ -120,7 +120,19 @@ Codecity really lives up to its name. What it does is that it visualises the cod
 \end{center}
 \end{figure}
 
-The buildings in the figure are also color coded to easily spot the problems the individual classes have. The legend for the colors can be found in figure \ref{fig:legendCodeCity}. There are numbers next to each type of problem, indicating how many classes are affected.
+The buildings in the figure are also color coded to easily spot the problems the individual classes have. This is the so-called disharmony map. The legend for the colors can be found in figure \ref{fig:legendCodeCity}. There are numbers next to each type of problem, indicating how many classes are affected.
+
+Codecity can distinguish between three types of problems:
+\begin{description}
+\item[God class] A God class is a class which \emph{knows too much or does too much}. In other words, it's a class that does most of the work and delegates only minor things to other classes. Therefore these classes tend to be very large and unwieldy. This is very visible in figure \ref{fig:codecityIso}, where orange buildings are God classes.
+
+The philosophy of OO programming is just the opposite to this centralisation: keep splitting up the project in smaller pieces until every individual fragment is of a manageable size. It's also something that's very often found in OO projects, written by people who used to develop in a procedural language like C because they're used to write a program in one big file.
+
+\item[Brain class] Brain classes 
+
+\item[Data class] These are \emph{dumb} classes. This means that they barely contain functionality and are mostly just for representing and storing data.
+
+\end{description}
 
 \begin{figure}
 \begin{center}
@@ -130,7 +142,7 @@ The buildings in the figure are also color coded to easily spot the problems the
 \end{center}
 \end{figure}
 
-The tool allows to interact with the image and move around in the city. Figure \ref{fig:codecityMap}
+Another interesting view of the Codecity can be found in figure \ref{fig:codecityMap}. Just as you might like to have a map of a city before you go exploring, Codecity can show a top-down view of the code.
 
 \begin{figure}
 \begin{center}
