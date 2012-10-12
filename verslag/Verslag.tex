@@ -8,7 +8,7 @@
 \begin{document}
 \begin{titlepage}
 
-\title{OSS Iteratie 1}
+\title{OSS Iteration 1}
 \author{Michiel Huygen\\Tom Jacobs\\Victor Jacobs\\Jeroen Wygaerts}
 
 \maketitle
@@ -110,13 +110,33 @@ Here some tools will be discussed that were used for analysing JSettlers code. T
 
 \subsection{Codecity}
 
-Codecity's name 
+Codecity really lives up to its name. What it does is that it visualises the codebase by building a city out of it. Buildings are classes with their dimensions directly correlated to the size of the class. The height shows the number of methods in the class. Width and length are both the number of attributes in the class. Figure \ref{fig:codecityIso} shows an overview of the Codecity generated for JSettlers.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.6\textwidth]{Image/Codecity/Codecity1.jpg}
-\caption{aaa}
-\label{fig:codecity1}
+\includegraphics[width=0.8\textwidth]{Image/Codecity/Codecity2.jpg}
+\caption{Isometric view of the JSettlers city}
+\label{fig:codecityIso}
+\end{center}
+\end{figure}
+
+The buildings in the figure are also color coded to easily spot the problems the individual classes have. The legend for the colors can be found in figure \ref{fig:legendCodeCity}. There are numbers next to each type of problem, indicating how many classes are affected.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.4\textwidth]{Image/Codecity/Codecity4.png}
+\caption{Color coding}
+\label{fig:legendCodeCity}
+\end{center}
+\end{figure}
+
+The tool allows to interact with the image and move around in the city. Figure \ref{fig:codecityMap}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Image/Codecity/Codecity3.jpg}
+\caption{Map of the JSettlers city}
+\label{fig:codecityMap}
 \end{center}
 \end{figure}
 
