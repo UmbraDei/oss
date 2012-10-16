@@ -222,7 +222,13 @@ The metrics are very similar to the pyramid found in figure \ref{fig:incodeTrian
 
 \newpage
 
-\section{Testen}
+\section{Testing}
+
+The project uses no unit testing whatsoever. The JUnit configuration in the build.xml file literally contains this line:
+\emph{<!-- Not used: For later.... -->} . As the project was developped to demonstrate AI functionality for the settlers game, this is understandable, yet makes debugging a very laborative matter.
+The game is of course inherently based on randomization. Any high-level test suite would fail because of this. One possible way to bypass this would be by creating a pre-scipted testing game, where all random number generator are initialized with the same fixed seed.
+This is quite a good option, and wouldn't require too much work to implement should future iterations of the project warrant such testing, but the creation of the pre-scripted game itself would still be a major task.//
+Low-level unit testing can be used to ensure possible extensions in further iterations are correct, and vital parts of the current code, but will still be very laborious, and good low-level code coverage will be extremely difficult to achieve within the expected timescale of this poject.
 
 \newpage
 
